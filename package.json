@@ -1,0 +1,21 @@
+{
+  "name": "webscrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.2",
+    "googleapis": "^39.2.0",
+    "mimetext": "^2.0.7",
+    "nodemailer": "^6.7.3",
+    "tinyurl": "^1.1.7",
+    "urlsafe-base64": "^1.0.0"
+  }
+}
