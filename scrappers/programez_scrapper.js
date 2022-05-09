@@ -67,7 +67,7 @@ async function scrap() {
     
         const now = new Date()
         
-        const today = now.getDate()   + " " + formatMonthfrench(now.getMonth()) + " " + now.getFullYear()
+        const today = now.getDate()  + " " + formatMonthfrench(now.getMonth()) + " " + now.getFullYear()
         
         $('.view-actualites').find('.views-row').each((idx, row) => {
             const article = {
